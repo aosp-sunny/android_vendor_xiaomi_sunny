@@ -235,7 +235,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sunny/proprietary/vendor/etc/sensors/config/sns_tilt_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_sw_enabled.json \
     vendor/xiaomi/sunny/proprietary/vendor/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_to_wake.json \
     vendor/xiaomi/sunny/proprietary/vendor/etc/sensors/config/sns_wrist_pedo.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_wrist_pedo.json \
-    vendor/xiaomi/sunny/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/sunny/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/xiaomi/sunny/proprietary/vendor/etc/thermal-4k.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-4k.conf \
     vendor/xiaomi/sunny/proprietary/vendor/etc/thermal-arvr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-arvr.conf \
@@ -574,7 +573,7 @@ PRODUCT_PACKAGES += \
     libdepthmapwrapper \
     libmmcamera_cac3 \
     com.fingerprints.extension@1.0 \
-    com.qualcomm.qti.dpm.api@1.0_vendor \
+    com.qualcomm.qti.dpm.api@1.0 \
     com.qualcomm.qti.imscmservice@2.0 \
     com.qualcomm.qti.imscmservice@2.1 \
     com.qualcomm.qti.imscmservice@2.2 \
@@ -841,7 +840,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.qmi@1.0 \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.fingerprint@1.0 \
-    vendor.qti.hardware.fm@1.0_vendor \
+    vendor.qti.hardware.fm@1.0 \
     vendor.qti.hardware.iop@1.0 \
     vendor.qti.hardware.iop@2.0 \
     vendor.qti.hardware.mwqemadapter@1.0 \
@@ -879,53 +878,53 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.tui_comm@1.0 \
     vendor.qti.ims.callcapability@1.0 \
     vendor.qti.ims.callinfo@1.0 \
-    vendor.qti.ims.factory@1.0_vendor \
-    vendor.qti.ims.factory@1.1_vendor \
-    vendor.qti.ims.rcsconfig@1.0_vendor \
-    vendor.qti.ims.rcsconfig@1.1_vendor \
-    vendor.qti.ims.rcsconfig@2.0_vendor \
-    vendor.qti.ims.rcsconfig@2.1_vendor \
+    vendor.qti.ims.factory@1.0 \
+    vendor.qti.ims.factory@1.1 \
+    vendor.qti.ims.rcsconfig@1.0 \
+    vendor.qti.ims.rcsconfig@1.1 \
+    vendor.qti.ims.rcsconfig@2.0 \
+    vendor.qti.ims.rcsconfig@2.1 \
     vendor.qti.imsrtpservice@3.0-service-Impl \
-    vendor.qti.imsrtpservice@3.0_vendor \
+    vendor.qti.imsrtpservice@3.0 \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
-    libmmrtpdecoder \
-    libmmrtpencoder \
-    com.qualcomm.qti.dpm.api@1.0_system_ext \
-    fm_helium \
-    lib-imsvideocodec \
-    lib-imsvt \
-    lib-imsvtextutils \
-    lib-imsvtutils \
-    libaptXHD_encoder \
-    libaptX_encoder \
-    libdiag_system \
-    libdpmctmgr \
-    libdpmfdmgr \
-    libdpmframework \
-    libdpmtcm \
-    libfm-hci \
-    libimscamera_jni \
-    libimsmedia_jni \
-    libmmparser_lite \
-    vendor.qti.diaghal@1.0 \
-    vendor.qti.hardware.fm@1.0_system_ext \
-    vendor.qti.ims.factory@1.0 \
-    vendor.qti.ims.factory@1.0_system_ext \
-    vendor.qti.ims.factory@1.1 \
-    vendor.qti.ims.factory@1.1_system_ext \
-    vendor.qti.ims.factory@2.0 \
-    vendor.qti.ims.factory@2.0_system_ext \
-    vendor.qti.ims.rcsconfig@1.0 \
-    vendor.qti.ims.rcsconfig@1.0_system_ext \
-    vendor.qti.ims.rcsconfig@1.1 \
-    vendor.qti.ims.rcsconfig@1.1_system_ext \
-    vendor.qti.ims.rcsconfig@2.0 \
-    vendor.qti.ims.rcsconfig@2.0_system_ext \
-    vendor.qti.ims.rcsconfig@2.1 \
-    vendor.qti.ims.rcsconfig@2.1_system_ext \
-    vendor.qti.imsrtpservice@3.0 \
-    vendor.qti.imsrtpservice@3.0_system_ext \
+    libmmrtpdecoder.system \
+    libmmrtpencoder.system \
+    com.qualcomm.qti.dpm.api@1.0.system \
+    fm_helium.system \
+    lib-imsvideocodec.system \
+    lib-imsvt.system \
+    lib-imsvtextutils.system \
+    lib-imsvtutils.system \
+    libaptXHD_encoder.system \
+    libaptX_encoder.system \
+    libdiag_system.system \
+    libdpmctmgr.system \
+    libdpmfdmgr.system \
+    libdpmframework.system \
+    libdpmtcm.system \
+    libfm-hci.system \
+    libimscamera_jni.system \
+    libimsmedia_jni.system \
+    libmmparser_lite.system \
+    vendor.qti.diaghal@1.0.system \
+    vendor.qti.hardware.fm@1.0.system \
+    vendor.qti.ims.factory@1.0.system \
+    vendor.qti.ims.factory@1.0.system \
+    vendor.qti.ims.factory@1.1.system \
+    vendor.qti.ims.factory@1.1.system \
+    vendor.qti.ims.factory@2.0.system \
+    vendor.qti.ims.factory@2.0.system \
+    vendor.qti.ims.rcsconfig@1.0.system \
+    vendor.qti.ims.rcsconfig@1.0.system \
+    vendor.qti.ims.rcsconfig@1.1.system \
+    vendor.qti.ims.rcsconfig@1.1.system \
+    vendor.qti.ims.rcsconfig@2.0.system \
+    vendor.qti.ims.rcsconfig@2.0.system \
+    vendor.qti.ims.rcsconfig@2.1.system \
+    vendor.qti.ims.rcsconfig@2.1.system \
+    vendor.qti.imsrtpservice@3.0.system \
+    vendor.qti.imsrtpservice@3.0.system \
     CneApp \
     IWlanService \
     TimeService \
@@ -945,11 +944,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.factory-V1.0-java \
     vendor.qti.ims.factory-V1.1-java \
     vendor.qti.ims.factory-V2.0-java \
-    android.hardware.keymaster@4.1-service-default-qti \
-    android.hardware.neuralnetworks@1.3-service-qti-hta \
-    android.hardware.neuralnetworks@1.3-service-qti \
+    manifest_android.hardware.keymaster@4.1-service-default-qti \
+    manifest_android.hardware.neuralnetworks@1.3-service-qti-hta \
+    manifest_android.hardware.neuralnetworks@1.3-service-qti \
     manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.qti.gnss@4.0-service \
+    manifest_vendor.qti.gnss@4.0-service \
     adpl \
     adsprpcd \
     batterysecret \
@@ -998,4 +997,4 @@ PRODUCT_PACKAGES += \
     time_daemon \
     vppservice \
     xtra-daemon \
-    dpmd
+    dpmd.system

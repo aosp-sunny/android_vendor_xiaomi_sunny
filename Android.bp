@@ -3876,8 +3876,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.dpm.api@1.0_vendor",
-	stem: "com.qualcomm.qti.dpm.api@1.0",
+	name: "com.qualcomm.qti.dpm.api@1.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -8432,8 +8431,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.fm@1.0_vendor",
-	stem: "vendor.qti.hardware.fm@1.0",
+	name: "vendor.qti.hardware.fm@1.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9079,8 +9077,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.factory@1.0_vendor",
-	stem: "vendor.qti.ims.factory@1.0",
+	name: "vendor.qti.ims.factory@1.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9097,8 +9094,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.factory@1.1_vendor",
-	stem: "vendor.qti.ims.factory@1.1",
+	name: "vendor.qti.ims.factory@1.1",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9115,8 +9111,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@1.0_vendor",
-	stem: "vendor.qti.ims.rcsconfig@1.0",
+	name: "vendor.qti.ims.rcsconfig@1.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9133,8 +9128,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@1.1_vendor",
-	stem: "vendor.qti.ims.rcsconfig@1.1",
+	name: "vendor.qti.ims.rcsconfig@1.1",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9151,8 +9145,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@2.0_vendor",
-	stem: "vendor.qti.ims.rcsconfig@2.0",
+	name: "vendor.qti.ims.rcsconfig@2.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9169,8 +9162,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@2.1_vendor",
-	stem: "vendor.qti.ims.rcsconfig@2.1",
+	name: "vendor.qti.ims.rcsconfig@2.1",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9204,8 +9196,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.imsrtpservice@3.0_vendor",
-	stem: "vendor.qti.imsrtpservice@3.0",
+	name: "vendor.qti.imsrtpservice@3.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9256,7 +9247,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmmrtpdecoder",
+	name: "libmmrtpdecoder.system",
+	stem: "libmmrtpdecoder",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9276,7 +9268,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmmrtpencoder",
+	name: "libmmrtpencoder.system",
+	stem: "libmmrtpencoder",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9296,7 +9289,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.dpm.api@1.0_system_ext",
+	name: "com.qualcomm.qti.dpm.api@1.0.system",
 	stem: "com.qualcomm.qti.dpm.api@1.0",
 	owner: "xiaomi",
 	strip: {
@@ -9314,7 +9307,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "fm_helium",
+	name: "fm_helium.system",
+	stem: "fm_helium",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9331,7 +9325,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib-imsvideocodec",
+	name: "lib-imsvideocodec.system",
+	stem: "lib-imsvideocodec",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9348,7 +9343,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib-imsvt",
+	name: "lib-imsvt.system",
+	stem: "lib-imsvt",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9365,7 +9361,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib-imsvtextutils",
+	name: "lib-imsvtextutils.system",
+	stem: "lib-imsvtextutils",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9382,7 +9379,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib-imsvtutils",
+	name: "lib-imsvtutils.system",
+	stem: "lib-imsvtutils",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9399,7 +9397,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaptXHD_encoder",
+	name: "libaptXHD_encoder.system",
+	stem: "libaptXHD_encoder",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9416,7 +9415,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libaptX_encoder",
+	name: "libaptX_encoder.system",
+	stem: "libaptX_encoder",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9433,7 +9433,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdiag_system",
+	name: "libdiag_system.system",
+	stem: "libdiag_system",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9450,7 +9451,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdpmctmgr",
+	name: "libdpmctmgr.system",
+	stem: "libdpmctmgr",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9467,7 +9469,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdpmfdmgr",
+	name: "libdpmfdmgr.system",
+	stem: "libdpmfdmgr",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9484,7 +9487,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdpmframework",
+	name: "libdpmframework.system",
+	stem: "libdpmframework",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9501,7 +9505,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libdpmtcm",
+	name: "libdpmtcm.system",
+	stem: "libdpmtcm",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9518,7 +9523,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libfm-hci",
+	name: "libfm-hci.system",
+	stem: "libfm-hci",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9535,7 +9541,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libimscamera_jni",
+	name: "libimscamera_jni.system",
+	stem: "libimscamera_jni",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9552,7 +9559,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libimsmedia_jni",
+	name: "libimsmedia_jni.system",
+	stem: "libimsmedia_jni",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9569,7 +9577,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmmparser_lite",
+	name: "libmmparser_lite.system",
+	stem: "libmmparser_lite",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9586,7 +9595,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.diaghal@1.0",
+	name: "vendor.qti.diaghal@1.0.system",
+	stem: "vendor.qti.diaghal@1.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9603,7 +9613,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.fm@1.0_system_ext",
+	name: "vendor.qti.hardware.fm@1.0.system",
 	stem: "vendor.qti.hardware.fm@1.0",
 	owner: "xiaomi",
 	strip: {
@@ -9621,24 +9631,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.factory@1.0",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/vendor.qti.ims.factory@1.0.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.factory@1.0_system_ext",
+	name: "vendor.qti.ims.factory@1.0.system",
 	stem: "vendor.qti.ims.factory@1.0",
 	owner: "xiaomi",
 	strip: {
@@ -9656,14 +9649,15 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.factory@1.1",
+	name: "vendor.qti.ims.factory@1.0.system",
+	stem: "vendor.qti.ims.factory@1.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/vendor.qti.ims.factory@1.1.so"],
+			srcs: ["proprietary/system_ext/lib64/vendor.qti.ims.factory@1.0.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -9673,7 +9667,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.factory@1.1_system_ext",
+	name: "vendor.qti.ims.factory@1.1.system",
 	stem: "vendor.qti.ims.factory@1.1",
 	owner: "xiaomi",
 	strip: {
@@ -9691,14 +9685,15 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.factory@2.0",
+	name: "vendor.qti.ims.factory@1.1.system",
+	stem: "vendor.qti.ims.factory@1.1",
 	owner: "xiaomi",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/vendor.qti.ims.factory@2.0.so"],
+			srcs: ["proprietary/system_ext/lib64/vendor.qti.ims.factory@1.1.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -9708,7 +9703,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.factory@2.0_system_ext",
+	name: "vendor.qti.ims.factory@2.0.system",
 	stem: "vendor.qti.ims.factory@2.0",
 	owner: "xiaomi",
 	strip: {
@@ -9726,14 +9721,15 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@1.0",
+	name: "vendor.qti.ims.factory@2.0.system",
+	stem: "vendor.qti.ims.factory@2.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@1.0.so"],
+			srcs: ["proprietary/system_ext/lib64/vendor.qti.ims.factory@2.0.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -9743,7 +9739,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@1.0_system_ext",
+	name: "vendor.qti.ims.rcsconfig@1.0.system",
 	stem: "vendor.qti.ims.rcsconfig@1.0",
 	owner: "xiaomi",
 	strip: {
@@ -9761,14 +9757,15 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@1.1",
+	name: "vendor.qti.ims.rcsconfig@1.0.system",
+	stem: "vendor.qti.ims.rcsconfig@1.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@1.1.so"],
+			srcs: ["proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@1.0.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -9778,7 +9775,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@1.1_system_ext",
+	name: "vendor.qti.ims.rcsconfig@1.1.system",
 	stem: "vendor.qti.ims.rcsconfig@1.1",
 	owner: "xiaomi",
 	strip: {
@@ -9796,14 +9793,15 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@2.0",
+	name: "vendor.qti.ims.rcsconfig@1.1.system",
+	stem: "vendor.qti.ims.rcsconfig@1.1",
 	owner: "xiaomi",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so"],
+			srcs: ["proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@1.1.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -9813,7 +9811,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@2.0_system_ext",
+	name: "vendor.qti.ims.rcsconfig@2.0.system",
 	stem: "vendor.qti.ims.rcsconfig@2.0",
 	owner: "xiaomi",
 	strip: {
@@ -9831,14 +9829,15 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@2.1",
+	name: "vendor.qti.ims.rcsconfig@2.0.system",
+	stem: "vendor.qti.ims.rcsconfig@2.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so"],
+			srcs: ["proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -9848,7 +9847,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@2.1_system_ext",
+	name: "vendor.qti.ims.rcsconfig@2.1.system",
 	stem: "vendor.qti.ims.rcsconfig@2.1",
 	owner: "xiaomi",
 	strip: {
@@ -9866,7 +9865,26 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.imsrtpservice@3.0",
+	name: "vendor.qti.ims.rcsconfig@2.1.system",
+	stem: "vendor.qti.ims.rcsconfig@2.1",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.qti.imsrtpservice@3.0.system",
+	stem: "vendor.qti.imsrtpservice@3.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9883,7 +9901,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.imsrtpservice@3.0_system_ext",
+	name: "vendor.qti.imsrtpservice@3.0.system",
 	stem: "vendor.qti.imsrtpservice@3.0",
 	owner: "xiaomi",
 	strip: {
@@ -10076,7 +10094,7 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.keymaster@4.1-service-default-qti",
+	name: "manifest_android.hardware.keymaster@4.1-service-default-qti",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.keymaster@4.1-service-default-qti.xml",
 	filename_from_src: true,
@@ -10085,7 +10103,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.neuralnetworks@1.3-service-qti-hta",
+	name: "manifest_android.hardware.neuralnetworks@1.3-service-qti-hta",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml",
 	filename_from_src: true,
@@ -10094,7 +10112,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.neuralnetworks@1.3-service-qti",
+	name: "manifest_android.hardware.neuralnetworks@1.3-service-qti",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml",
 	filename_from_src: true,
@@ -10112,7 +10130,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.gnss@4.0-service",
+	name: "manifest_vendor.qti.gnss@4.0-service",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
 	filename_from_src: true,
@@ -10125,9 +10143,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/adpl"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10137,9 +10152,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/adsprpcd"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10149,9 +10161,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/batterysecret"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10161,9 +10170,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/cdsprpcd"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10173,9 +10179,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/cnd"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10185,9 +10188,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/cnss-daemon"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10197,9 +10197,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/dpmQmiMgr"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10209,9 +10206,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/dspservice"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10221,9 +10215,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/hvdcp_opti"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10233,11 +10224,8 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
 	relative_install_path: "hw",
+	prefer: true,
 	soc_specific: true,
 }
 
@@ -10246,11 +10234,8 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
 	relative_install_path: "hw",
+	prefer: true,
 	soc_specific: true,
 }
 
@@ -10259,11 +10244,8 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
 	relative_install_path: "hw",
+	prefer: true,
 	soc_specific: true,
 }
 
@@ -10272,11 +10254,8 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service-qti"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
 	relative_install_path: "hw",
+	prefer: true,
 	soc_specific: true,
 }
 
@@ -10285,11 +10264,8 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
 	relative_install_path: "hw",
+	prefer: true,
 	soc_specific: true,
 }
 
@@ -10298,11 +10274,8 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/hw/qcrild"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
 	relative_install_path: "hw",
+	prefer: true,
 	soc_specific: true,
 }
 
@@ -10311,11 +10284,8 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/hw/vendor.display.color@1.0-service"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
 	relative_install_path: "hw",
+	prefer: true,
 	soc_specific: true,
 }
 
@@ -10324,11 +10294,8 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
 	relative_install_path: "hw",
+	prefer: true,
 	soc_specific: true,
 }
 
@@ -10337,11 +10304,8 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
 	relative_install_path: "hw",
+	prefer: true,
 	soc_specific: true,
 }
 
@@ -10350,11 +10314,8 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/hw/vendor.qti.hardware.iop@2.0-service"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
 	relative_install_path: "hw",
+	prefer: true,
 	soc_specific: true,
 }
 
@@ -10363,11 +10324,8 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/hw/vendor.qti.hardware.perf@2.2-service"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
 	relative_install_path: "hw",
+	prefer: true,
 	soc_specific: true,
 }
 
@@ -10376,11 +10334,8 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
 	relative_install_path: "hw",
+	prefer: true,
 	soc_specific: true,
 }
 
@@ -10389,11 +10344,8 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/hw/vendor.qti.media.c2@1.0-service"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
 	relative_install_path: "hw",
+	prefer: true,
 	soc_specific: true,
 }
 
@@ -10402,9 +10354,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/ims_rtp_daemon"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10414,9 +10363,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/imsdatadaemon"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10426,9 +10372,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/imsqmidaemon"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10438,9 +10381,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/imsrcsd"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10450,9 +10390,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/irsc_util"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10462,9 +10399,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/loc_launcher"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10474,9 +10408,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/lowi-server"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10486,9 +10417,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/mi_thermald"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10498,9 +10426,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/msm_irqbalance"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10510,9 +10435,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/netmgrd"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10522,9 +10444,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/nv_mac"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10534,9 +10453,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/pd-mapper"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10546,9 +10462,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/pm-proxy"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10558,9 +10471,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/pm-service"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10570,9 +10480,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/power_off_alarm"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10582,9 +10489,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/ppd"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10594,9 +10498,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/qrtr-ns"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10606,9 +10507,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/qseecomd"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10618,9 +10516,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/qti"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10630,9 +10525,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/rmt_storage"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10642,9 +10534,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/sensors.qti"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10654,9 +10543,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/tftp_server"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10666,9 +10552,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/thermal-engine"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10678,9 +10561,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/time_daemon"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10690,9 +10570,6 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/vppservice"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
@@ -10702,21 +10579,16 @@ cc_prebuilt_binary {
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/xtra-daemon"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	soc_specific: true,
 }
 
 cc_prebuilt_binary {
-	name: "dpmd",
+	name: "dpmd.system",
+	stem: "dpmd",
 	owner: "xiaomi",
 	srcs: ["proprietary/system_ext/bin/dpmd"],
 	check_elf_files: false,
-	strip: {
-		none: true,
-	},
 	prefer: true,
 	system_ext_specific: true,
 }
