@@ -349,8 +349,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sunny/proprietary/vendor/radio/qcril_database/upgrade/16_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/16_version_update_ecc_table.sql \
     vendor/xiaomi/sunny/proprietary/vendor/radio/qcril_database/upgrade/17_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/17_version_update_ecc_table.sql \
     vendor/xiaomi/sunny/proprietary/vendor/radio/qcril_database/upgrade/18_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/18_version_update_ecc_table.sql \
+    vendor/xiaomi/sunny/proprietary/vendor/radio/qcril_database/upgrade/19_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/19_version_update_ecc_table.sql \
     vendor/xiaomi/sunny/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
     vendor/xiaomi/sunny/proprietary/vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/2_version_add_wps_config.sql \
+    vendor/xiaomi/sunny/proprietary/vendor/radio/qcril_database/upgrade/31_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/31_version_update_ecc_table.sql \
+    vendor/xiaomi/sunny/proprietary/vendor/radio/qcril_database/upgrade/32_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/32_version_update_ecc_table.sql \
+    vendor/xiaomi/sunny/proprietary/vendor/radio/qcril_database/upgrade/33_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/33_version_update_ecc_table.sql \
+    vendor/xiaomi/sunny/proprietary/vendor/radio/qcril_database/upgrade/34_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/34_version_update_ecc_table.sql \
+    vendor/xiaomi/sunny/proprietary/vendor/radio/qcril_database/upgrade/35_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/35_version_update_ecc_table.sql \
+    vendor/xiaomi/sunny/proprietary/vendor/radio/qcril_database/upgrade/36_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/36_version_update_ecc_table.sql \
+    vendor/xiaomi/sunny/proprietary/vendor/radio/qcril_database/upgrade/37_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/37_version_update_ecc_table.sql \
+    vendor/xiaomi/sunny/proprietary/vendor/radio/qcril_database/upgrade/38_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/38_version_update_ecc_table.sql \
     vendor/xiaomi/sunny/proprietary/vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_update_wps_config.sql \
     vendor/xiaomi/sunny/proprietary/vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/4_version_update_ecc_table.sql \
     vendor/xiaomi/sunny/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql \
@@ -573,7 +582,7 @@ PRODUCT_PACKAGES += \
     libdepthmapwrapper \
     libmmcamera_cac3 \
     com.fingerprints.extension@1.0 \
-    com.qualcomm.qti.dpm.api@1.0 \
+    com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@2.0 \
     com.qualcomm.qti.imscmservice@2.1 \
     com.qualcomm.qti.imscmservice@2.2 \
@@ -840,7 +849,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.qmi@1.0 \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.fingerprint@1.0 \
-    vendor.qti.hardware.fm@1.0 \
+    vendor.qti.hardware.fm@1.0_vendor \
     vendor.qti.hardware.iop@1.0 \
     vendor.qti.hardware.iop@2.0 \
     vendor.qti.hardware.mwqemadapter@1.0 \
@@ -878,53 +887,51 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.tui_comm@1.0 \
     vendor.qti.ims.callcapability@1.0 \
     vendor.qti.ims.callinfo@1.0 \
-    vendor.qti.ims.factory@1.0 \
-    vendor.qti.ims.factory@1.1 \
-    vendor.qti.ims.rcsconfig@1.0 \
-    vendor.qti.ims.rcsconfig@1.1 \
-    vendor.qti.ims.rcsconfig@2.0 \
-    vendor.qti.ims.rcsconfig@2.1 \
+    vendor.qti.ims.factory@1.0_vendor \
+    vendor.qti.ims.factory@1.1_vendor \
+    vendor.qti.ims.rcsconfig@1.0_vendor \
+    vendor.qti.ims.rcsconfig@1.1_vendor \
+    vendor.qti.ims.rcsconfig@2.0_vendor \
+    vendor.qti.ims.rcsconfig@2.1_vendor \
     vendor.qti.imsrtpservice@3.0-service-Impl \
-    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
-    libmmrtpdecoder.system \
-    libmmrtpencoder.system \
-    com.qualcomm.qti.dpm.api@1.0.system \
-    fm_helium.system \
-    lib-imsvideocodec.system \
-    lib-imsvt.system \
-    lib-imsvtextutils.system \
-    lib-imsvtutils.system \
-    libaptXHD_encoder.system \
-    libaptX_encoder.system \
-    libdiag_system.system \
-    libdpmctmgr.system \
-    libdpmfdmgr.system \
-    libdpmframework.system \
-    libdpmtcm.system \
-    libfm-hci.system \
-    libimscamera_jni.system \
-    libimsmedia_jni.system \
-    libmmparser_lite.system \
-    vendor.qti.diaghal@1.0.system \
-    vendor.qti.hardware.fm@1.0.system \
-    vendor.qti.ims.factory@1.0.system \
-    vendor.qti.ims.factory@1.0.system \
-    vendor.qti.ims.factory@1.1.system \
-    vendor.qti.ims.factory@1.1.system \
-    vendor.qti.ims.factory@2.0.system \
-    vendor.qti.ims.factory@2.0.system \
-    vendor.qti.ims.rcsconfig@1.0.system \
-    vendor.qti.ims.rcsconfig@1.0.system \
-    vendor.qti.ims.rcsconfig@1.1.system \
-    vendor.qti.ims.rcsconfig@1.1.system \
-    vendor.qti.ims.rcsconfig@2.0.system \
-    vendor.qti.ims.rcsconfig@2.0.system \
-    vendor.qti.ims.rcsconfig@2.1.system \
-    vendor.qti.ims.rcsconfig@2.1.system \
-    vendor.qti.imsrtpservice@3.0.system \
-    vendor.qti.imsrtpservice@3.0.system \
+    libmmrtpdecoder \
+    libmmrtpencoder \
+    com.qualcomm.qti.dpm.api@1.0_system_ext \
+    fm_helium \
+    lib-imsvideocodec \
+    lib-imsvt \
+    lib-imsvtextutils \
+    lib-imsvtutils \
+    libdiag_system \
+    libdpmctmgr \
+    libdpmfdmgr \
+    libdpmframework \
+    libdpmtcm \
+    libfm-hci \
+    libimscamera_jni \
+    libimsmedia_jni \
+    libmmparser_lite \
+    vendor.qti.diaghal@1.0 \
+    vendor.qti.hardware.fm@1.0_system_ext \
+    vendor.qti.ims.factory@1.0 \
+    vendor.qti.ims.factory@1.0_system_ext \
+    vendor.qti.ims.factory@1.1 \
+    vendor.qti.ims.factory@1.1_system_ext \
+    vendor.qti.ims.factory@2.0 \
+    vendor.qti.ims.factory@2.0_system_ext \
+    vendor.qti.ims.rcsconfig@1.0 \
+    vendor.qti.ims.rcsconfig@1.0_system_ext \
+    vendor.qti.ims.rcsconfig@1.1 \
+    vendor.qti.ims.rcsconfig@1.1_system_ext \
+    vendor.qti.ims.rcsconfig@2.0 \
+    vendor.qti.ims.rcsconfig@2.0_system_ext \
+    vendor.qti.ims.rcsconfig@2.1 \
+    vendor.qti.ims.rcsconfig@2.1_system_ext \
+    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.imsrtpservice@3.0_system_ext \
     CneApp \
     IWlanService \
     TimeService \
@@ -944,11 +951,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.factory-V1.0-java \
     vendor.qti.ims.factory-V1.1-java \
     vendor.qti.ims.factory-V2.0-java \
-    manifest_android.hardware.keymaster@4.1-service-default-qti \
-    manifest_android.hardware.neuralnetworks@1.3-service-qti-hta \
-    manifest_android.hardware.neuralnetworks@1.3-service-qti \
+    android.hardware.keymaster@4.1-service-default-qti \
+    android.hardware.neuralnetworks@1.3-service-qti-hta \
+    android.hardware.neuralnetworks@1.3-service-qti \
     manifest_android.hardware.drm@1.3-service.widevine \
-    manifest_vendor.qti.gnss@4.0-service \
+    vendor.qti.gnss@4.0-service \
     adpl \
     adsprpcd \
     batterysecret \
@@ -997,4 +1004,4 @@ PRODUCT_PACKAGES += \
     time_daemon \
     vppservice \
     xtra-daemon \
-    dpmd.system
+    dpmd
