@@ -1004,4 +1004,5 @@ PRODUCT_PACKAGES += \
     time_daemon \
     vppservice \
     xtra-daemon \
-    dpmd
+    dpmd \
+    libprotobuf-cpp-lite-3.9.1
